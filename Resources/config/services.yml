@@ -1,0 +1,7 @@
+parameters:
+    jonasarts.opentbs.class: ja\OpenTBSBundle\Services\OpenTBS
+
+services:
+    opentbs:
+        class: %jonasarts.opentbs.class%
+        arguments: []

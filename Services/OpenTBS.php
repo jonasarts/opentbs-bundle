@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace ja\OpenTBSBundle\Services;
+namespace jonasarts\Bundle\OpenTBSBundle\Services;
 
 require_once __DIR__ . '/../lib/tbs_class.php';
 require_once __DIR__ . '/../lib/tbs_plugin_opentbs.php';

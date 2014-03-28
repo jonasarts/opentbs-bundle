@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace ja\OpenTBSBundle;
+namespace jonasarts\Bundle\OpenTBSBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

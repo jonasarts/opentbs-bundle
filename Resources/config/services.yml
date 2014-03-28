@@ -1,5 +1,5 @@
 parameters:
-    jonasarts.opentbs.class: ja\OpenTBSBundle\Services\OpenTBS
+    jonasarts.opentbs.class: jonasarts\Bundle\OpenTBSBundle\Services\OpenTBS
 
 services:
     opentbs:

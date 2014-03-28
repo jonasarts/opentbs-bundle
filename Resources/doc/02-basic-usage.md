@@ -23,7 +23,7 @@ In the php code examples, ``$this`` referes to a controller.
     
     // send the file
     $tbs->Show(OPENTBS_DOWNLOAD, 'document.docx');
-``
+```
 
 Read the documentation for the TinyButStrong Template Engine on the [TBS Website](http://www.tinybutstrong.com)!
 

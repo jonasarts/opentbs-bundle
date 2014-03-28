@@ -17,5 +17,5 @@ This bundle is under the MIT license. See the complete license in the bundle:
 
     LICENSE
 
-The TinyButStrong Template Engine is under the LPGL License version 3. [TBS Website](http://www.tinybutstrong.com)
+The TinyButStrong Template Engine is under the LPGL License version 3. [TBS Website](http://www.tinybutstrong.com)  
 The OpenTBS Plugin is under the LPGL License. [Plugin Website](http://www.tinybutstrong.com/plugins.php)

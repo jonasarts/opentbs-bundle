@@ -12,14 +12,10 @@
             "homepage": "http://www.jonasarts.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
-        "php": ">=5.3.3",
-        "symfony/dependency-injection": ">=2.4",
-        "symfony/yaml": ">=2.4"
+        "php": "^7.1"
     },
     "autoload": {
-        "psr-0": { "jonasarts\\Bundle\\OpenTBSBundle": "" }
-    },
-    "target-dir": "jonasarts/Bundle/OpenTBSBundle"
+        "psr-4": { "jonasarts\\Bundle\\OpenTBSBundle\\": "" }
+    }
 }

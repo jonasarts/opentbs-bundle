@@ -1,7 +1,10 @@
 parameters:
-    jonasarts.opentbs.class: jonasarts\Bundle\OpenTBSBundle\Services\OpenTBS
+    jonasarts.opentbs.class: jonasarts\Bundle\OpenTBSBundle\OpenTBS\OpenTBS
 
 services:
     opentbs:
-        class: %jonasarts.opentbs.class%
+        class: "%jonasarts.opentbs.class%"
         arguments: []
+        public: true
+
+    jonasarts\Bundle\OpenTBSBundle\OpenTBS\OpenTBS: ~

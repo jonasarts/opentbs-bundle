@@ -3,41 +3,18 @@ Setting up the bundle
 
 ## Install the bundle
 
-First add the bundle to your composer.json file: 
-
-```json
-{
-    // ...
-    "require": {
-        // ...
-        "jonasarts/opentbs-bundle": "1.0.*"
-    },
-    "minimum-stability": "stable",
-    // ...
-}
-```
-
-Then run composer.phar:
+Execute this console command in your project:
 
 ``` bash
-$ php composer.phar install
+composer require jonasarts/opentbs-bundle
 ```
 
 ## Enable the bundle
 
-Enable the bundle in the kernel:
+Composer enables the bundle for you in config/bundles.php
 
-```php
-// app/AppKernel.php
-
-public function registerBundles()
-{
-    $bundles = array(
-        // ...
-        new jonasarts\Bundle\OpenTBSBundle\OpenTBSBundle(),
-    );
-}
-```
+You can now use the
+`jonasarts\Bundle\OpenTBSBundle\OpenTBS\OpenTBS` class.
 
 ## That's it
 

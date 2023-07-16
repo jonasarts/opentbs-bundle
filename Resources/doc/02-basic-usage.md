@@ -3,17 +3,11 @@ Using the bundle
 
 The service is just a wrapper to the clsTinyButStrong class. You can call on it any method provided by the clsTinyButStrong class.
 
-Retrieve the service like any other symfony service:
-
-```php
-    $tbs = $this->get('opentbs');
-```
-
 In the php code examples, ``$this`` referes to a controller.
 
 ```php
-    // get the service
-    $tbs = $this->container->get('opentbs');
+    // get the service via DI
+    // OpenTBS $tbs
 
     // load your template
     $tbs->LoadTemplate('template.docx', OPENTBS_ALREADY_UTF8); 

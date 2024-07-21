@@ -8,7 +8,7 @@ This bundle provides a simplified access to the OpenTBS plugin and the TBS Templ
 Installation
 ------------
 
-All the installation instructions are located in the [documentation](https://github.com/jonasarts/opentbs-bundle/blob/master/Resources/doc/index.md).
+All the installation instructions are located in the [documentation](https://github.com/jonasarts/opentbs-bundle/blob/master/docs/index.md).
 
 License
 -------

@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 namespace jonasarts\Bundle\OpenTBSBundle\OpenTBS;
 
-require_once __DIR__ . '/../lib/tbs_class.php';
-require_once __DIR__ . '/../lib/tbs_plugin_opentbs.php';
+require_once __DIR__ . '/../lib/v1.12.1/tbs_class.php';
+require_once __DIR__ . '/../lib/v1.12.1/tbs_plugin_opentbs.php';
 
 /**
  * OpenTBS Service

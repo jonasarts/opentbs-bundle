@@ -12,10 +12,16 @@
             "homepage": "http://www.jonasarts.com"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
-        "php": ">=8.1"
+        "php": ">=8.1",
     },
     "autoload": {
-        "psr-4": { "jonasarts\\Bundle\\OpenTBSBundle\\": "" }
+        "psr-4": { "jonasarts\\Bundle\\OpenTBSBundle\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "jonasarts\\Bundle\\OpenTBSBundle\\Tests\\": "tests/"
+        }
     }
 }
